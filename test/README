@@ -9,3 +9,22 @@ in the development cycle.
 
 More information about PlatformIO Unit Testing:
 - https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+
+#include <Arduino.h>
+#include <unity.h>
+
+void test_example() {
+    TEST_ASSERT_TRUE(true);
+}
+
+void setup() {
+    delay(2000);
+}
+
+void loop() {
+    UNITY_BEGIN();
+
+    RUN_TEST(test_example);
+
+    UNITY_END();
+}
