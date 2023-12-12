@@ -4,8 +4,9 @@
 #include <HTTPClient.h>
 #include <WiFi.h>
 
-const char *ssid = "xsantcastx";
-const char *password = "1037647666";
+// Recordar agregar usuario y clave de wifi para actualizar el codigo.
+const char *ssid = "*********";
+const char *password = "+++++++++";
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
